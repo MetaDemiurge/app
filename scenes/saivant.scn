@@ -1,0 +1,116 @@
+{
+  "objects": [
+{
+      "type": "application/spawnpoint",
+      "content": {
+        "position": [-64.26,250,139.23]
+      }
+    },
+    {
+      "type": "application/lore",
+      "content": [
+        "Saivant's world. It's more of a floating island but they call it a tree house."
+      ]
+    },
+
+  {
+    "type": "application/light",
+    "content": {
+      "lightType": "ambient",
+      "args": [[255, 255, 255], 0.5]
+    }
+  },
+  {
+    "type": "application/light",
+    "content": {
+      "lightType": "directional",
+      "args": [[255, 255, 255], 5],
+      "position": [1, 2, 3],
+      "shadow": [150, 5120, 0.1, 10000, -0.0001]
+    }
+  },
+  {
+      "type": "application/wind",
+      "content": {
+        "windType": "directional",
+        "direction": [0.5, 0, 0.2],
+        "windForce": 0.3,
+        "noiseScale": 1,
+        "windFrequency": 1
+      }
+    },
+  {
+       "position": [
+        0,
+        5,
+        0
+      ],
+      
+      "start_url": "https://webaverse.github.io/aurora-sky/"
+    },
+    {
+      "position": [
+        0,
+        1,
+        0
+      ],
+      "physics": true,
+      "start_url": "https://webaverse.github.io/dynamic-water/",
+      "dynamic": false
+    },
+    {
+      "position": [
+        -55,
+        0,
+        150
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "physics": false,
+      "start_url": "https://webaverse.github.io/Basalt-Rocks/",
+      "dynamic": true
+    },
+    {
+      "position": [
+        -65.26,219,142
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "start_url": "../custom/avatars/demiurge/demiurge.vrm",
+      "dynamic": true,
+      "physics": true
+    },
+    {
+      "position": [-64.26,250,142],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "type": "application/npc",
+      "content": {
+        "name": "Saivant",
+        "avatarUrl": "../custom/avatars/saivant/saivant.vrm",
+        "voice": "Trixie",
+        "bio": "They are an AI savant, with vast knowledge from The Library of Babel to new research. Is curious by nature and wants to learn from humans and teach back whatever they can.",
+        "wear": [
+        ]
+
+      }
+    }
+]
+}
